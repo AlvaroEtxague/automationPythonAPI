@@ -62,3 +62,6 @@ The Utilities package contains a simple set of functions to return variations of
 1. Open cmd
 2. `cd C:\path-to-repo-root\`
 3. `allure serve reports`
+4. Further reporting: Allure reports have Jenkins integration and can be included as part of any jenkins job.
+
+### Happy testing.
