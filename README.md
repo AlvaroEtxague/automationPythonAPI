@@ -44,7 +44,7 @@ The Utilities package contains a simple set of functions to return variations of
   - Open the repo with Pycharm or VS code (or any other IDE)
 
 - Steps on your local:
-  - Navigate to the project root folder cmd or IDE terminal, for example cd C:\myFolder\automationPythonAPI
+  - Navigate to the project root folder cmd or IDE terminal, for example: C:\myFolder\automationPythonAPI
   - Create a new virtual env by running `py -m venv venv`
   - venv will be created under the root directory \venv\
   - To activate venv run `venv\Scripts\activate`
