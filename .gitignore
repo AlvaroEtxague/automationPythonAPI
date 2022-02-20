@@ -1,0 +1,6 @@
+.pytest_cache
+utils
+.idea
+venv
+reports
+README.md
