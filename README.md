@@ -1,24 +1,24 @@
 # API Automation Framework using Python
-#Project Overview:
+# Project Overview:
 This is an api framework built on Python containing various sets of requests and mock responses.
 
-##App package
+## App package
 The App package contains all request modules broken down per action.
 The endpoint.py module serves as an url builder for the different requests
 
-##Resources package
+## Resources package
 The Resources package contains all data for the different requests
 
-##Tests package
+## Tests package
 The Tests package contains all tests for the different requests.
 The tests are organized in two groups:
   - real
   - mocked
 
-##Utilities package
+## Utilities package
 The Utilities package contains a simple set of functions to return variations of the responses
 
-#Installation Steps:
+# Installation Steps:
 - Clone this repo
   - Go to https://github.com/zippote/frameworkPython
   - Click Code
@@ -36,15 +36,15 @@ The Utilities package contains a simple set of functions to return variations of
   - run `pip install -r requirements.txt`
 
 
-#RUNNING TESTS WITH PYTEST
-##Run tests individually
+# RUNNING TESTS WITH PYTEST
+## Run tests individually
 `pytest -v -s`
 
-##Run tests individually and add them to report
+## Run tests individually and add them to report
 `pytest -v -s --alluredir=reports`
 
 
-##To view allure report
+## To view allure report
 1. Open cmd
 2. `cd C:\path-to-repo-root\`
 3. `allure serve reports`
