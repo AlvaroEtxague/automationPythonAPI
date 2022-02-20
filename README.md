@@ -19,22 +19,36 @@ The tests are organized in two groups:
 The Utilities package contains a simple set of functions to return variations of the responses
 
 # Installation Steps:
-- Clone this repo
-  - Go to https://github.com/zippote/frameworkPython
+## From Github
+  - Clone this repo
+  - Go to https://github.com/zippote/automationPythonAPI
   - Click Code
   - Select HTTPS and copy the following url https://github.com/zippote/automationPythonAPI.git
 
 - Steps on your local:
   - Create a destination folder in your local >> ie: myFolderExample in the C drive
-  - Open the cmd and move to that folder >> cd C:\myFolderExample
+  - Open cmd and move to that folder >> cd C:\myFolderExample
   - Type the following command: git clone https://github.com/zippote/automationPythonAPI.git
   - Hit enter and wait until the process is completed
   - Navigate to the project root folder cmd or IDE terminal
-  - create new virtual env by running `py -m venv venv`
+  - Create a new virtual env by running `py -m venv venv`
   - venv will be created under the root directory \venv\
-  - to activate venv run `venv\Scripts\activate`
-  - run `pip install -r requirements.txt`
+  - To activate venv run `venv\Scripts\activate`
+  - Run `pip install -r requirements.txt`
 
+## From ZIP
+  - Go to https://github.com/zippote/automationPythonAPI
+  - Click Code
+  - Select download zip
+  - Extract the file to a folder of your choice, for example: C:\myFolder\automationPythonAPI
+  - Open the repo with Pycharm or VS code (or any other IDE)
+
+- Steps on your local:
+  - Navigate to the project root folder cmd or IDE terminal, for example cd C:\myFolder\automationPythonAPI
+  - Create a new virtual env by running `py -m venv venv`
+  - venv will be created under the root directory \venv\
+  - To activate venv run `venv\Scripts\activate`
+  - Run `pip install -r requirements.txt`
 
 # RUNNING TESTS WITH PYTEST
 ## Run tests individually
