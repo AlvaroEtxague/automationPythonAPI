@@ -65,7 +65,7 @@ def test_cancelled_payment():
         get_mock.return_value = mock_response
         mocked_data = get_plain_json(
             get_payments_with_status_for_customer(
-                'SETTLED', 'alvaro'))['data']
+                'CANCELLED', 'alvaro'))['data']
         mocked_status = mocked_data[0]['status']
         print(f'Payment status is {mocked_status}')
         assert mocked_status == "CANCELLED"
@@ -79,7 +79,7 @@ def test_failed_payment():
         get_mock.return_value = mock_response
         mocked_data = get_plain_json(
             get_payments_with_status_for_customer(
-                'SETTLED', 'alvaro'))['data']
+                'FAILED', 'alvaro'))['data']
         mocked_status = mocked_data[0]['status']
         print(f'Payment status is {mocked_status}')
         assert mocked_status == "FAILED"
